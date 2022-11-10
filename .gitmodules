@@ -1,0 +1,3 @@
+[submodule "autoScroll Extension/GoToTop"]
+	path = autoScroll Extension/Resourses
+	url = git@github.com:garethng/GoToTop.git
