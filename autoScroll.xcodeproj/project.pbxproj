@@ -77,7 +77,7 @@
 		0C92BD65291D40A900F846FC /* _locales */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = _locales; path = "autoScroll Extension/Resourses/_locales"; sourceTree = SOURCE_ROOT; };
 		0C92BD66291D40A900F846FC /* popup.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = popup.css; path = "autoScroll Extension/Resourses/popup.css"; sourceTree = SOURCE_ROOT; };
 		0C92BD67291D40A900F846FC /* popup.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = popup.html; path = "autoScroll Extension/Resourses/popup.html"; sourceTree = SOURCE_ROOT; };
-		0C92BD68291D40AA00F846FC /* img.svg */ = {isa = PBXFileReference; lastKnownFileType = file; name = img.svg; path = "autoScroll Extension/Resourses/img.svg"; sourceTree = SOURCE_ROOT; };
+		0C92BD68291D40AA00F846FC /* img.svg */ = {isa = PBXFileReference; lastKnownFileType = text; name = img.svg; path = "autoScroll Extension/Resourses/img.svg"; sourceTree = SOURCE_ROOT; };
 		0C92BD69291D40AA00F846FC /* jQuery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = jQuery.js; path = "autoScroll Extension/Resourses/jQuery.js"; sourceTree = SOURCE_ROOT; };
 		0C92BD6A291D40AA00F846FC /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = manifest.json; path = "autoScroll Extension/Resourses/manifest.json"; sourceTree = SOURCE_ROOT; };
 		0C92BD6B291D40AA00F846FC /* content.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = content.js; path = "autoScroll Extension/Resourses/content.js"; sourceTree = SOURCE_ROOT; };
@@ -520,6 +520,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = AutoScroll;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -556,6 +557,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = AutoScroll;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
